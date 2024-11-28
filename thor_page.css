@@ -1,0 +1,176 @@
+.thor_main_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 2rem;
+  color: white;
+}
+.stick_containerOne {
+  width: 20%;
+  height: 85vh;
+  overflow: hidden;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+.stick_containerOne:hover {
+  box-shadow: 5px 5px 20px grey;
+  border-radius: 3rem;
+}
+.animation_line_stick {
+  border-top: 2px solid grey;
+  margin-top: 2rem;
+}
+.thor_stick_image_container {
+  width: 100%;
+  height: 100%;
+  /* margin-top: 3rem; */
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+
+.thor_immortal_poster {
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  left: -15%;
+}
+.moving_containerTwo_cardOne {
+  width: 75%;
+}
+
+.MainText_wrapper_mainContainer {
+  /* border: 2px solid grey; */
+  border-radius: 2rem;
+  box-shadow: 2px 2px 8px grey;
+  padding: 1rem 0rem;
+}
+.Content_wrapper_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: black;
+}
+.Content_wrapper_container a:link {
+  text-decoration: none;
+}
+.thor_name_container {
+  width: 18rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e62429;
+  color: white;
+  clip-path: polygon(14% 0, 100% 0%, 89% 100%, 0% 100%);
+}
+.thor_content_text {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0rem;
+}
+.link_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 1rem 2rem;
+}
+.thor_attribute {
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 1.4rem;
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: red;
+  background-color: black;
+}
+.thor_attribute:hover {
+  font-size: 1.26rem;
+  box-shadow: 2px 8px 9px grey;
+}
+.container_section_video_s4r2 {
+  width: 100%;
+  height: 34.375rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Thor_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4rem 0rem;
+}
+
+/* second_container */
+.second_container {
+  margin: 10rem 3rem;
+}
+.mcard1_line_animation {
+  border-top: 2px solid black;
+  margin-bottom: 2rem;
+}
+.MainText_wrapper_Ragnarok {
+  background-color: black;
+}
+.Ragnarok_content_text {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.Thor_video_container {
+  width: 100%;
+  height: 34.375rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ragnarok_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container_section_video_s4r2 {
+  position: relative;
+}
+.coursor {
+  width: 172px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 88;
+
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  display: none;
+  transition: transform 0.1s ease-out;
+}
+.hover_s4r2_content {
+  display: inline-block;
+  margin-top: 49px;
+  width: 88px;
+  font-weight: 700;
+  color: black;
+}
+.givemargin {
+  margin-bottom: 85px;
+  display: inline-block;
+  font-size: 2rem;
+  color: red;
+}
